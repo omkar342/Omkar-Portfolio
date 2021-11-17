@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mali&family=Mochiy+Pop+One&family=Mukta:wght@500&family=Roboto&family=Varela+Round&display=swap");
+
+.home {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 8rem 10px;
+  background-image: radial-gradient(at top right, transparent 69%, #e54b22 60%),
+    linear-gradient(1deg, transparent, transparent);
+}
+
+.intro {
+  margin-top: 27px;
+  color: #000;
+}
+
+.intro p {
+  margin: 0px;
+  font-size: 20px;
+  font-family: "Mali", cursive;
+  font-weight: bold;
+  color: #fff;
+}
+
+.intro h1,h2{
+    color: #fff;
+}
+
+.intro h1,
+p {
+  font-family: "Mukta", sans-serif;
+}
+
+.name a {
+  color: #e54b22;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
+.name a:hover {
+  color: #1266f1;
+}
+
+.avatar{
+    margin: 70px 0px 0px 70px;
+}
+
+@media only screen and (max-width: 700px) {
+  .home {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-image: none;
+    padding: 1rem 10px;
+  }
+  .para p{
+      font-size: 14px;
+  }
+}
+
+.icon {
+  font-size: 20px;
+  color: #1266f1;
+  margin-left: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.button button {
+  text-align: center;
+  margin: 10px;
+  background-color: #000;
+  border: 3px solid #e54b22;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 5px 12px;
+  box-shadow: 1px 3px 6px 2px #283350;
+  color: #fff;
+}
+
+.button i {
+  transition: 0.5s ease;
+  font-size: calc(15px + 0.4vw);
+}
+
+button:hover i {
+  transform: translateX(3px);
+  color: #e54b22;
+}
+
+button:hover a {
+  color: #e54b22;
+  text-decoration: underline;
+}
+
+a:hover button p {
+  color: #e54b22;
+  text-decoration: underline;
+}
+
+button:hover {
+    box-shadow: 1px 2px 4px 2px #283350;
+}
+
+.button button p{
+    font-size: calc(15px + 0.4vw);
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+    .avatar{
+        margin: 10px auto;
+        text-align: center;
+    }    
+    .avatar img{
+        height: 150px;
+        width: 150px;
+    }
+    .button button p{
+        font-size: 15px;
+        /* font-weight: bold; */
+    }
+    .button button i{
+        font-size: 15px;
+    }
+    .button button{
+        padding: 0px 10px 3px;
+    }
+}
