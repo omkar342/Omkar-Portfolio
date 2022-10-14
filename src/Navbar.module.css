@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Mukta:wght@300&family=Varela+Round&display=swap');
+
+.navbar{
+    background-color: #000;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 1px 1px 15px 5px #575353;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+}
+
+.navbar h1{
+    color: #e54b22;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 0px 0px;
+}
+
+.navbar h1:hover{
+    color: #1266f1;
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+}

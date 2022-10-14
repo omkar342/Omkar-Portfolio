@@ -1,0 +1,29 @@
+/* .social{
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    border-radius: 1000%;
+} */
+
+.social a{
+    margin: 5px;
+    color: #e54b22;
+    background-color: #fdfdfd;
+    font-size: 15px;
+    padding: 0px;
+}
+
+.social a i{
+    margin: 0px;
+}
+
+.social a:hover{
+    box-shadow: 0px 4px 4px 0px #000;
+    background-color: #e54b22;
+    padding: 1px;
+    color: #fff;
+}
+
+.social a:hover i {
+    color: #fdfdfd;
+}

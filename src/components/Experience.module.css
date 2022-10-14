@@ -1,0 +1,62 @@
+.experience{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    margin: 0px 0px -8px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 1px #000;
+    padding: 10px 10px;
+}
+
+.experience p{
+    /* color: #e54b22; */
+    font-size: 18px;
+}
+
+.title{
+    margin: 10px;
+    /* background-color: chocolate; */
+}
+
+.title h1{
+    font-weight: bold;
+}
+
+.title img{
+    width: 100px;
+    height: 100px;
+    margin: 10px 0px 0px;
+    border: 3.5px solid #283350;
+}
+
+.icon i{
+    color: #e54b22;
+    margin-top: 1px;
+}
+
+.color{
+    color: #e54b22;
+}
+
+.shadow p{
+    margin-bottom: -91px;
+    font-size: 121px;
+    opacity: 0.1;
+    color: #fff;
+}
+
+.card {
+    margin: 5rem 0px;
+}
+
+@media only screen and (max-width: 700px) {
+    .avatar{
+        flex-direction: column;
+        text-align: left;
+    }
+    .shadow p{
+        margin-bottom: -48px;
+        font-size: 52px;
+        opacity: 0.2;
+    }
+}

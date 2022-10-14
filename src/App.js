@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Navbar from "./Navbar";
+import Home from "./Home";
+import Card from "./Card";
+import Footer from "./Footer";
+import ParticleBackground from "./ParticleBackground";
+import About from './components/About'
+// import { Route } from "react-router";
+// import Particles from 'react-particles-js'
+// import Button from '@mui/material/Button';
+// import { AppBar } from '@mui/material';
+// import { ComponentName } from 'primereact/{componentname}';
+// import { Dialog } from 'primereact/dialog';
+// import { Accordion,AccordionTab } from 'primereact/accordion';
 
-function App() {
+// Express server on port 3000
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="App">
+      <div className="particles">
+        <ParticleBackground/>
+      </div>
+      <Navbar />
+      <Home/>
+      <Card/>
+      <Footer/>
+      {/* <Card1/> */}
+      {/* <Card2/> */}
+      {/* <Route path="/About">
+                <About/>
+            </Route> */}
+    </div>
     </div>
   );
-}
+};
 
 export default App;
