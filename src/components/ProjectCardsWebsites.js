@@ -49,9 +49,9 @@ function ProjectCardsWebsites() {
     },
     {
       name: "SpaceX",
-      description: "This is website that tells you all the information regarding spaceX's launchpads.",
-      view: "",
-      code: "",
+      description: "This is website that shows you all the information regarding spaceX's launchpads.",
+      view: "https://github.com/omkar342/SpaceX",
+      code: "https://github.com/omkar342/SpaceX",
       image: spacex,
     },
     {

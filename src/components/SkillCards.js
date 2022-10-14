@@ -23,6 +23,7 @@ import sql from "../assets/sql.png"
 import flutter from "../assets/flutter.png"
 import bootstrap from "../assets/bootstrap.png"
 import socket from "../assets/socket.png"
+import typescript from "../assets/typescript.png"
 
 function SkillCards() {
     return (
@@ -38,6 +39,7 @@ function SkillCards() {
                 <SkillCard title="Python" image={python}/>
                 <SkillCard title="Javascript" image={javascript}/>
                 <SkillCard title="Dart" image={dart}/>
+                <SkillCard title="Typescript" image={typescript}/>
             </div>
             <h3>Frontend Development</h3>
             <div className={classes.images}>
