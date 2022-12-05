@@ -2,20 +2,34 @@ import React from "react";
 import classes from "./ProjectCardsWebsites.module.css";
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import mag from "../assets/mag.png";
 import cowin from "../assets/Cowin.png";
 import calculator from "../assets/calculator.png";
-import news from "../assets/news.png"
-import bank from "../assets/bank.png"
-import teams from "../assets/teams.png"
-import travel from "../assets/travel.png"
-import movie from "../assets/movie.png"
-import vduo from "../assets/vduo2.png"
+import news from "../assets/news.png";
+import bank from "../assets/bank.png";
+import teams from "../assets/teams.png";
+import travel from "../assets/travel.png";
+import movie from "../assets/movie.png";
+import vduo from "../assets/vduo2.png";
 import spacex from "../assets/spacex.png";
-
+import chatty from "../assets/chatty.png";
 
 function ProjectCardsWebsites() {
   const events = [
+    {
+      name: "Chatty",
+      description: "Real-time chatting app, built with ReactJs and Socket.io",
+      view: "https://github.com/omkar342/chatty",
+      code: "https://github.com/omkar342/chatty",
+      image: chatty,
+    },
+    {
+      name: "V-Duo",
+      description:
+        "Real-time video chatting app, built with ReactJs and Socket.io",
+      view: "https://github.com/omkar342/V-Duo",
+      code: "https://github.com/omkar342/V-Duo",
+      image: vduo,
+    },
     {
       name: "Cowin Clone",
       description:
@@ -25,45 +39,43 @@ function ProjectCardsWebsites() {
       image: cowin,
     },
     {
-      name: "V-Duo",
-      description:
-        "Real-time chatting app, built with ReactJs and Socket.io",
-      view: "https://github.com/omkar342/V-Duo",
-      code: "https://github.com/omkar342/V-Duo",
-      image: vduo,
-    },
-    {
-      name: "New-s Tab Extension",
-      description: "This is the new-tab type of extension which will keep you updated with latest news on your new tab.",
-      view: "https://microsoftedge.microsoft.com/addons/detail/news-tab/anchgkkmjjfccdpcihekalfallhciohi",
-      code: "https://github.com/omkar342/New-s-Tab",
-      image: news,
-
-    },
-    {
       name: "Meeting Management",
-      description: "This is the Website to manage your meetings. This Webapp will help user to manage their meetings & schedule their day accordingly.",
+      description:
+        "This is the Website to manage your meetings. This Webapp will help user to manage their meetings & schedule their day accordingly.",
       view: "https://github.com/omkar342/Meeting-Management-System",
       code: "https://github.com/omkar342/Meeting-Management-System",
       image: teams,
     },
+
+    {
+      name: "New-s Tab Extension",
+      description:
+        "This is the new-tab type of extension which will keep you updated with latest news on your new tab.",
+      view: "https://microsoftedge.microsoft.com/addons/detail/news-tab/anchgkkmjjfccdpcihekalfallhciohi",
+      code: "https://github.com/omkar342/New-s-Tab",
+      image: news,
+    },
+
     {
       name: "SpaceX",
-      description: "This is website that shows you all the information regarding spaceX's launchpads.",
+      description:
+        "This is website that shows you all the information regarding spaceX's launchpads.",
       view: "https://github.com/omkar342/SpaceX",
       code: "https://github.com/omkar342/SpaceX",
       image: spacex,
     },
     {
       name: "Bank Management",
-      description: "This website is the simulation of Bank-Management-System in which you can simulate the transaction.",
+      description:
+        "This website is the simulation of Bank-Management-System in which you can simulate the transaction.",
       view: "https://github.com/omkar342/bank-management",
       code: "https://github.com/omkar342/bank-management",
       image: bank,
     },
     {
       name: "Movieflix",
-      description: "On this website you can search for the movies you wish & get to know more about that movie. It fetches all the information about movies using API.",
+      description:
+        "On this website you can search for the movies you wish & get to know more about that movie. It fetches all the information about movies using API.",
       view: "https://github.com/omkar342/MovieFlix-Wishlist",
       code: "https://github.com/omkar342/MovieFlix-Wishlist",
       image: movie,
