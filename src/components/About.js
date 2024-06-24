@@ -22,22 +22,21 @@ function About() {
           </h3>
           <p className={classes.intro_header}>Software Developer</p>
           <p className={classes.intro_para}>
-          I am a pre-final year undergrad student with a major in computer science.
-           I love developing software that can have an impact on the life of people. 
-           I am also currently learning fundamentals of Blockchain & looking forward to build Decentralized Apps to implement web3.
+            I love developing software that can have an impact on the life of people.
+            I am also currently learning fundamentals of Blockchain & looking forward to build Decentralized Apps to implement web3.
           </p>
         </div>
-        <hr style={{color:"white",opacity:"1"}} />
+        <hr style={{ color: "white", opacity: "1" }} />
         <div className={classes.avatar}>
           {/* <Avatar1 /> */}
           <p>
             <span className={classes.color}>Name:</span> Omkar Jadhav
           </p>
           <p>
-            <span className={classes.color}>Age:</span> 19
+            <span className={classes.color}>Age:</span> 22
           </p>
           <p>
-            <span className={classes.color}>Phone No.:</span> +91 832-973-3453
+            <span className={classes.color}>Phone No.:</span> +91 8329733453
           </p>
           <p>
             <span className={classes.color}>Email:</span>{" "}

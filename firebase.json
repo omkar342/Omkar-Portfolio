@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "omkar-portfolio-f1571",
     "public": "build",
     "ignore": [
       "firebase.json",

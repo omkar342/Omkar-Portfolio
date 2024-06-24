@@ -24,6 +24,7 @@ import flutter from "../assets/flutter.png"
 import bootstrap from "../assets/bootstrap.png"
 import socket from "../assets/socket.png"
 import typescript from "../assets/typescript.png"
+import next from "../assets/next.png"
 
 function SkillCards() {
     return (
@@ -45,6 +46,7 @@ function SkillCards() {
             <div className={classes.images}>
                 <SkillCard title="HTML" image={html}/>
                 <SkillCard title="CSS" image={css}/>
+                <SkillCard title="Next.js" image={next}/>
                 <SkillCard title="React.js" image={react}/>
                 <SkillCard title="Material UI" image={materialui}/>
                 <SkillCard title="Bootstrap" image={bootstrap}/>

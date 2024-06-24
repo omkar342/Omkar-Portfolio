@@ -1,11 +1,8 @@
 import React from "react";
 import Avatar1 from "./Avatar1";
 import classes from "./Home.module.css";
-import { Button } from "@mui/material";
-import resume from "./assets/Omkar_Jadhav_Resume.pdf";
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import Typing from "react-typing-animation";
 
 function Home() {
   return (
@@ -14,29 +11,21 @@ function Home() {
         <Avatar1 />
       </div>
       <div className={classes.intro}>
-        <h1>HEY THERE 👋!</h1>
+        <h1>Welcome 🙏!</h1>
         <h2>
           I'm{" "}
           <span className={classes.name}>
             <a href="https://www.linkedin.com/in/omkar-jadhav-7809b7196/">
-              Omkar Jadhav
+              Omkar
             </a>
           </span>
         </h2>
-        {/* <p>
-          I develop Full Stack Applications that has great impact on the life of
-          user & make their life easy.
-        </p> */}
         <div className={classes.para}>
           <p>
-            I'm a Full Stack Developer who is focused on developing software
-            products that make the life of users easy.
+            Experienced MERN stack developer with 2 years of hands-on expertise in building scalable web applications using MongoDB, Express.js, ReactJs, NextJs, and Node.js.
           </p>
           <p>
-            I can build Browser Extension, Android Apps, Web Apps & Websites.
-          </p>
-          <p>
-            I am passionate about Web Development, Open Source & Blockchain.
+            Dedicated to writing clean, maintainable code following best practices, contributing to scalable and efficient software solutions.
           </p>
         </div>
         <div className={classes.buttons}>
@@ -53,7 +42,7 @@ function Home() {
             </a>
           </div>
           <div className={classes.button}>
-            <a href="https://drive.google.com/file/d/1n0y2CUDm_TexR4pm2YIPv4Mikz24WK2Y/view" target="_blank">
+            <a href="https://tinyurl.com/ypk63a6c" target="_blank">
               <button>
                 <p>
                   Resume{""}

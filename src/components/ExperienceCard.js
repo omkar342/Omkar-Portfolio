@@ -10,6 +10,16 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 function ExperienceCard() {
   const events = [
     {
+      company: "Civil Guruji",
+      post: "Full Stack Developer",
+      time: "AUG 2023 - Present",
+    },
+    {
+      company: "Cerence Inc.",
+      post: "Software Engineer Intern",
+      time: "JAN 2023 - JULY 2023",
+    },
+    {
       company: "Shopout",
       post: "Full-Stack Intern",
       time: "Mar 2022 - May 2022",
@@ -17,17 +27,7 @@ function ExperienceCard() {
     {
       company: "Vebsigns Technology",
       post: "Full Stack Intern",
-      time: "DEC 2021 - JAN 2022",
-    },
-    {
-      company: "The Spark's Foundation",
-      post: "Web Dev Intern",
-      time: "SEP 2021 - OCT 2021",
-    },
-    {
-      company: "Internshala",
-      post: "Internshala Student Partner-19",
-      time: "Aug 2020 - SEP 2020",
+      time: "DEC 2021 - FEB 2022",
     },
   ];
   return (
