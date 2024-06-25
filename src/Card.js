@@ -8,6 +8,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import classes from "./Card.module.css";
 import Experience from "./components/Experience";
+import Contact from "./components/Contact/Contact";
 
 function Card() {
   return (
@@ -31,6 +32,9 @@ function Card() {
       </Route>
       <Route path="/experience">
         <Experience />
+      </Route>
+      <Route path="/contact">
+        <Contact />
       </Route>
     </div>
   );

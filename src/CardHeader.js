@@ -32,6 +32,11 @@ function CardHeader() {
               Experience
             </NavLink>
           </li>
+          <li>
+            <NavLink activeClassName={classes.active} to="/contact">
+              Contact Me
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </header>
